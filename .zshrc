@@ -86,6 +86,9 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls -G'
 alias ll='ls -hl'
 
+# editor
+export EDITOR='vim'
+
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
@@ -109,3 +112,6 @@ fi
 
 # brew install dir
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# add prior path
+export PATH=/usr/local/bin:$PATH
