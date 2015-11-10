@@ -100,7 +100,7 @@ export PATH=/usr/local/git/bin:$PATH
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # direnv
-eval "$(direnv hook bash)"
+eval "$(direnv hook zsh)"
 
 # brew-wrap
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
