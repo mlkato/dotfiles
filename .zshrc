@@ -85,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias
 alias ls='ls -G'
 alias ll='ls -hl'
+alias unity='open -n /Applications/Unity/Unity.app'
 
 # editor
 export EDITOR='vim'
